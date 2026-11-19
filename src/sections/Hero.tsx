@@ -25,7 +25,7 @@ export function Hero() {
             <span className="bg-clip-text text-transparent" style={{ backgroundImage: "var(--gradient-brand)" }}>Gautam</span>
           </motion.h1>
           <p className="mt-6 min-h-[3.5rem] max-w-md text-lg font-medium text-(--color-muted) md:text-xl">
-            <Typewriter text="I build full-stack apps with real-time data and AI." />
+            <Typewriter text="I build the logic, shape the interface, and put AI to work." />
           </p>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] }} className="mt-9 flex flex-wrap gap-4">
             <a href="#projects" className="btn btn-primary">View Projects</a>

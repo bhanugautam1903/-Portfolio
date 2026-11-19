@@ -6,11 +6,15 @@ export function About() {
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <p className="eyebrow">About Me</p>
-          <h2 className="h2">Full-stack and AI-driven software</h2>
+          <h2 className="h2">Building software from the logic up</h2>
         </Reveal>
         <Reveal delay={0.1} className="card mt-8 max-w-3xl p-8">
           <p className="text-lg leading-relaxed text-(--color-muted)">
-            I&rsquo;m a Computer Science graduate with a strong foundation in Java, data structures and algorithms, and object-oriented programming. I&rsquo;ve built full-stack and AI-driven projects, from a stock market simulator to an air quality forecasting platform. I enjoy working with APIs and databases to solve problems and build reliable software.
+            I&rsquo;m a Computer Science graduate who draws on Java, data structures, and
+            object-oriented design to build full-stack applications. Curious how live
+            market data powers a trading simulator, how Gemini checks an AI agent&rsquo;s
+            work, or how machine learning forecasts air quality? Explore my projects to
+            see how I built each one.
           </p>
         </Reveal>
       </div>

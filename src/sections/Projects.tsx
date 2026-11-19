@@ -6,15 +6,15 @@ const PROJECTS = [
   { title: "PayAgent Protocol", sub: "AI Commerce Platform",
     desc: "Engineered a full-stack AI-agent commerce platform with RESTful APIs, capability-based access controls, PayPal payment workflows, and Gemini-powered task verification.",
     tech: ["React.js", "Node.js", "Express.js", "Firebase", "PayPal REST APIs", "Gemini API"],
-    links: [["Live Frontend", "https://payagent-protocol-frontend.onrender.com/"], ["Live Backend", "https://payagent-protocol-backend.onrender.com/"]] },
+    links: [["Live Frontend", "https://payagent-protocol-frontend.onrender.com/"], ["Live Backend", "https://payagent-protocol-backend.onrender.com/"], ["GitHub", "https://github.com/bhanugautam1903/PayAgent-Protocol"],] },
   { title: "TradeZen", sub: "Stock Market Simulation Platform",
     desc: "Developed a full-stack trading platform with real-time stock APIs, buy/sell transactions, portfolio management, and Firebase authentication.",
     tech: ["React.js", "Node.js", "Express.js", "Firebase"],
-    links: [["Live Link", "https://tradezen-uj1s.onrender.com/"]] },
+    links: [["Live Link", "https://tradezen-uj1s.onrender.com/"], ["GitHub", "https://github.com/bhanugautam1903/TradeZen"],] },
   { title: "Climora", sub: "AI-Powered Environmental Intelligence Platform",
     desc: "Architected a full-stack analytics platform with a Python ML microservice for AQI forecasting, real-time environmental APIs, and Gemini-powered insights.",
     tech: ["React.js", "TypeScript", "Express.js", "Firebase", "Python", "Random Forest", "Gemini API"],
-    links: [["Live Link", "https://climora-zvac.onrender.com/"]] },
+    links: [["Live Link", "https://climora-zvac.onrender.com/"], ["GitHub", "https://github.com/bhanugautam1903/Climora"],] },
 ];
 
 export function Projects() {
